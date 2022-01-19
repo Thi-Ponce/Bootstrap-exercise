@@ -34,10 +34,11 @@
     </nav>
     <section id="home">
         <div class="container-lg px-5 mb-5">
-        <div class="container-fluid container-lg-md contain mx-5">
-            <h1>I'm Thiago<br>Glad to see you!</h1>
-            <p class="lead">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience!<br>If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-        </div>
+          <div class="container-fluid container-lg-md contain mx-5">
+              <h1>I'm Thiago<br>Glad to see you!</h1>
+              <p class="lead">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience!<br>If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+          </div>
+        </div>  
         <div class="container-fluid mx-5">
             <h3>LET'S CONNECT</h3>
             <i class="bi bi-twitter"></i>
@@ -138,7 +139,8 @@
           
     </section>
     <section id="About">
-        <div class="container fluid-md mx-2">
+        <div class="row align-items-center justify-content-center">
+          <div class="container fluid-md mx-2" style="width: 450px;">
             <h1>About<br>Myself</h1>
             <p class="lead">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me</p>
             <h3 class="mt-2">LET'S CONNECT</h3>            
@@ -147,49 +149,60 @@
             <i class="bi bi-medium"></i>
             <i class="bi bi-github"></i>
             <i class="bi bi-peace"></i>
-            <div><a href="#" class="btn btn-outline-primary my-2">Get My Resume</a></div>            
-        </div>
-
-        <div class="accordion" id="accordion1">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="Languages">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Languages
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion1">
-                <div class="accordion-body">
-                  <!-- Colocar imagens -->
-                  <img src="./img/JS.png" class="float-left-md m-3" alt="Javascript Logo">
-
+            <div>
+                <a href="#" class="btn btn-outline-primary my-2">Get My Resume</a>
+            </div>
+          </div>
+          <div class="container fluid-md mx-2" style="width: 450px;">
+            <div class="accordion" id="accordion1">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="Languages">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Languages
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion1">
+                  <div class="accordion-body" style="width: fit-content;">
+                    <div class="js bg-light px-2">
+                      <img src="./img/JS.png" alt="Javascript Logo">
+                      <p>JavaScript</p>
+                    </div>
+                    <div class="html bg-light px-2">
+                        <img src="./img/HTML.png" alt="HTML Logo">
+                        <p>HTML</p>
+                      </div>
+                      <div class="css bg-light px-2">
+                        <img src="./img/CSS.png" alt="CSS Logo">
+                        <p>CSS</p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Frameworks
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Skills
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Frameworks
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <!-- vazio -->
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Skills
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <!-- vazio -->
-                </div>
-              </div>
-            </div>
-          </div>        
+          </div>
+        </div>        
 
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
